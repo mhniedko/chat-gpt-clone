@@ -78,7 +78,7 @@ const handleSubmit = async (e) => {
     loader(messageDiv);
 
     // fetching data
-    const response = await fetch('http://localhost:8080', {
+    const response = await fetch('https://chat-gpt-clone-6foq.onrender.com/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
